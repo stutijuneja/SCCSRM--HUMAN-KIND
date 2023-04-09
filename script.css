@@ -1,0 +1,509 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+h3 {
+  font-size: 0.75rem;
+  font-weight: 1000;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 1000;
+  font-size: 0.75rem;
+  background-color: white;
+  z-index: 2;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.dropdown-item {
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  padding: 10px 20px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.mainbtn {
+  border-radius: 70px;
+  padding: 1rem 1.5rem;
+  border: 3px solid black;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 700;
+}
+
+.btn1 {
+  height: 37px;
+  text-align: center;
+  align-content: center;
+  padding: 0.4rem 1.5rem;
+  border-radius: 70px;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.redblack:hover {
+  background-color: rgb(245, 63, 63);
+  color: #000;
+  box-shadow: 8px 8px #000000;
+  transition: 0.6s;
+  font-family: "TT Comons Pro", sans-serif;
+  border: 3px solid black;
+}
+
+.whiteblack:hover {
+  box-shadow: 8px 8px #000000;
+  transition: 0.3s;
+  font-family: "TT Comons Pro", sans-serif;
+  border: 3px solid black;
+}
+
+.btn2 {
+  text-align: center;
+  margin-top: 30px;
+  word-spacing: 20px;
+  font-family: "TT Comons Pro", sans-serif;
+}
+
+.button-3 {
+  background-color: yellow;
+  border-radius: 70px;
+  color: black;
+  transition: 0.3s;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 1rem 1.5rem;
+  display: grid;
+  margin-top: 30px;
+  font-family: "TT Comons Pro", sans-serif;
+}
+.button-3:hover {
+  box-shadow: 10px 10px #d8cb11;
+  background-color: yellow;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 900;
+  transition: 0.6s;
+}
+
+.button-4 {
+  font-size: 15px;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 900;
+}
+
+.human {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.kind {
+  width: 100%;
+  margin-top: -230px;
+}
+
+#text1 {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+p {
+  text-align: center;
+  font-family: serif;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.contentbox,
+.contentbox3 {
+  width: 80%;
+  height: 100%;
+  border: 6px solid black;
+  align-items: center;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  border-radius: 32px;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.span {
+  display: inline-block;
+}
+
+#humankind-fund {
+  width: 90%;
+  display: inline-block;
+}
+
+.runningimg {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+#text2 {
+  margin-left: -10px;
+  margin-top: -144px;
+}
+
+#text3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.contentbox2 {
+  width: 80%;
+  height: 50%;
+  align-items: center;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  padding: 23px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#tvimg {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.btn3 {
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  grid-column-gap: 0.4rem;
+  grid-row-gap: 0.4rem;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 900;
+}
+
+.contentbox3 {
+  width: 78%;
+  background-color: white;
+  margin-bottom: 60px;
+}
+
+.lunchbox {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  margin-top: 80px;
+}
+
+.collectibles-bg,
+.art-bg {
+  width: 100%;
+  height: 20%;
+}
+
+.collectibles-f1 {
+  border-radius: 100%;
+  width: 9rem;
+  border: 4px solid #000;
+  margin-right: -35px;
+  margin-bottom: 17px;
+  margin-top: -42px;
+}
+
+.upper1 {
+  margin-left: 22%;
+}
+
+.upper2 {
+  margin-left: 25%;
+}
+
+.contentbox4,
+.contentbox5 {
+  background-color: #000000;
+  width: 80%;
+  height: 80%;
+  margin-top: -590px;
+  position: relative;
+  z-index: 1;
+  margin-left: 163px;
+  border-radius: 40px;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.para,
+.art-para {
+  color: white;
+  font-family: "Lora", serif;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+.collectbtn {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 23px;
+}
+
+.contentbox5 {
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  border-radius: 0;
+  color: #000;
+  margin-left: 40px;
+}
+
+.art-para {
+  color: #252424;
+  margin-left: 30px;
+  margin-right: 15px;
+  text-align: left;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.art-head {
+  margin-left: 30px;
+  margin-right: 15px;
+  font-family: "TT Comons Pro", sans-serif;
+  font-weight: 900;
+  font-size: 2.3rem;
+  padding-top: 20px;
+}
+
+.art-btn {
+  margin-left: 30px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.art-img {
+  float: right;
+  z-index: 1;
+  position: relative;
+  margin-top: -387px;
+  margin-right: 30px;
+}
+
+.standing-img {
+  margin-top: 130px;
+  width: 75%;
+  margin-left: 150px;
+}
+
+.grp {
+  width: 100%;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.rhs,
+.lhs {
+  background-color: white;
+  width: 38%;
+  z-index: 1;
+  position: relative;
+  border: 6px solid black;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+.rhs {
+  margin-left: 118px;
+}
+
+.boxes {
+  display: flex;
+  grid-column-gap: 2.3rem;
+  margin: auto;
+  margin-top: -40%;
+}
+.c1 {
+  width: 28%;
+}
+
+.c2 {
+  width: 33%;
+}
+
+.building {
+  height: 835px;
+  width: 70%;
+  margin-top: 1px;
+}
+
+.mission {
+  width: 30%;
+  float: right;
+  margin-top: -570px;
+  margin-right: -23px;
+  padding: 20px;
+}
+.mission-head {
+  font-size: 35px;
+  width: 20px;
+}
+
+.mission-para {
+  font-size: 25px;
+  width: 70%;
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.mbtn {
+  margin-left: -5px;
+}
+
+.sword {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.adv-content {
+  text-align: center;
+}
+
+.sword-heading {
+  margin-top: 10px;
+  color: #000;
+}
+.sword-para {
+  color: #645b5b;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+  font-family: Lora, sans-serif;
+  font-weight: 400;
+}
+
+.sbtn {
+  background-color: #000;
+  margin-top: 20px;
+}
+
+.girl-img {
+  width: 800px;
+  float: right;
+}
+
+.footer {
+  margin-top: 300px;
+}
+
+.contentbox6 {
+  padding-top: 195px;
+  margin-left: 50px;
+}
+
+.foot-head {
+  margin-left: 0;
+}
+
+.foot-para {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.footbtns {
+  word-spacing: 2px;
+}
+.foot-btn1 {
+  background-color: #000;
+  color: white;
+  width: 20px;
+  width: 165px;
+  font-size: 13px;
+}
+.foot-btn2 {
+  width: 165px;
+  font-size: 13px;
+}
+
+.icons {
+  width: 35px;
+  margin-top: 30px;
+  white-space: nowrap;
+  word-spacing: 20px;
+  padding-bottom: 20px;
+}
+
+.foot-lunchbox {
+  width: 38px;
+}
+
+.indt {
+  font-family: Lora, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.bueno {
+  width: 80px;
+}
+
+.final-footer {
+  padding-top: 300px;
+  text-align: center;
+}
+
+.stayhuman {
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  height: 60%;
+  margin-top: 61px;
+}
+
+.staytxt {
+  position: absolute;
+  color: white;
+  width: 100%;
+  font-size: 16.8rem;
+  font-family: TT Comons Pro;
+  margin-top: -8.800000000000001rem;
+  font-weight: 800;
+}
